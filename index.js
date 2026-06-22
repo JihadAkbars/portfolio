@@ -835,6 +835,44 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  // --- Dynamic Statistics Counters Animation ---
+  const statCounters = document.querySelectorAll(".stat-counter");
+  const animateCounter = (el) => {
+    const target = parseInt(el.getAttribute("data-target"), 10);
+    const duration = 1600; // time in ms
+    const startTime = performance.now();
+    
+    const update = (now) => {
+      const elapsed = now - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      
+      // Easing outQuad
+      const ease = progress * (2 - progress);
+      
+      const current = Math.floor(ease * target);
+      el.textContent = current.toLocaleString();
+      
+      if (progress < 1) {
+        requestAnimationFrame(update);
+      } else {
+        el.textContent = target.toLocaleString();
+      }
+    };
+    
+    requestAnimationFrame(update);
+  };
+
+  const statsObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        animateCounter(entry.target);
+        statsObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1 });
+
+  statCounters.forEach((counter) => statsObserver.observe(counter));
+
   // --- Establish Routing triggers on initial load & updates ---
   handleRouting();
   window.addEventListener("hashchange", handleRouting);
