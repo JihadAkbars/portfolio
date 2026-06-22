@@ -6,14 +6,14 @@ const PROJECTS_DATA = [
     title: "Logo 3D Design",
     category: "CAD",
     image: "https://i.imgur.com/C8vr40r.jpeg",
-    software: ["SolidWorks", "Adobe"],
+    software: ["Inventor"],
     methodology: [
-      "Derived clean vector profiles and imported sketches to SolidWorks sketching engines.",
-      "Extruded, filleted, and combined multi-body entities with appropriate draft rules.",
-      "Assigned authentic metal alloy visual properties and computed reflection behaviors.",
-      "Produced formal isometric drafting frames showing detailed product limits."
+      "Creating a rough 2D design using Line, Circle and Arc.",
+      "3D creation using the extrude feature in Inventor.",
+      "Improve the initial design by using some features that are only available in 3D.",
+      "Converts .ipt file format to .Gcode to be ready for use in 3D printing."
     ],
-    description: "High-contrast 3D extrusion of geometric corporate brand elements, optimized for dual-state aesthetic representations, machining mold preparation, and digital assets.",
+    description: "High-contrast 3D extrusions of geometric elements of the school's department brand, optimized for two-state aesthetic representation, 3D Print preparation, and digital assets.",
     date: "November 2024"
   },
   {
@@ -612,7 +612,7 @@ function renderProjectDetails(project) {
 
           ${isCAD ? `
             <p class="text-xs text-gray-500 flex items-center justify-center gap-2 italic">
-              <span>📐 Interactive CAD Drawing preview generated under standard ASME rules.</span>
+              <span>📐 Interactive CAD Drawing preview generated under standard ISO rules.</span>
             </p>
           ` : ""}
         </div>
