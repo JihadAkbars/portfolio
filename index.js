@@ -62,21 +62,6 @@ const PROJECTS_DATA = [
     date: "March 2025"
   },
   {
-    id: "ecommerce-platform",
-    title: "E-commerce Platform Layout",
-    category: "Programming",
-    image: "https://picsum.photos/seed/project5/500/400",
-    software: ["Visual Studio Code", "Adobe"],
-    methodology: [
-      "Designed clean, elegant grid patterns and touch targets aligned with modern UX benchmarks.",
-      "Constructed secure relational object maps mapping inventory items to shopping carts.",
-      "Enabled lightning-fast indexation on queries using advanced browser data managers.",
-      "Polished interfaces into responsive flex structures looking stunning on desktop and mobile alike."
-    ],
-    description: "A highly intuitive, desktop-first and mobile-responsive online retail store system featuring fluid layouts, interactive item filtering, and customized product galleries.",
-    date: "January 2025"
-  },
-  {
     id: "programmer-portfolio",
     title: "Programmer Personal Portfolio",
     category: "Programming",
@@ -135,36 +120,6 @@ const PROJECTS_DATA = [
     ],
     description: "Compact, multi-stage planetary transmission unit optimized for rugged physical power transfer. Built for premium efficiency and completely covered under active corporate NDA protocols.",
     date: "May 2024"
-  },
-  {
-    id: "photography-mountain",
-    title: "Alpine Ridge Dawn Composition",
-    category: "Photography",
-    image: "https://picsum.photos/seed/alpine/500/400",
-    software: ["Adobe"],
-    methodology: [
-      "Coordinated temporal and light trajectories to capture pristine ridge contrast.",
-      "Equipped wide-angle glass sets to draw maximum dynamic landscape range.",
-      "Applied bracketed RAW captures to retain dark shadows and morning cloud values.",
-      "Balanced spatial hues to maintain stunning natural chromatic palettes."
-    ],
-    description: "A masterfully shot alpine landscape capturing the first rays of morning light reflecting on glacial valley surfaces. Edited for maximum fine-detail structure and contrast.",
-    date: "March 2024"
-  },
-  {
-    id: "programming-cnc-parser",
-    title: "Embedded CNC G-code Parser Engine",
-    category: "Programming",
-    image: "https://picsum.photos/seed/embedded/500/400",
-    software: ["Visual Studio Code"],
-    methodology: [
-      "Engineered linear step generators in highly optimized, lightweight C++ loops.",
-      "Smoothed physical acceleration profiles to curb machinery vibration.",
-      "Constructed fast communication interfaces linking controller boards with laptops.",
-      "Optimized SRAM footprint to run flawlessly on low-tier microprocessors."
-    ],
-    description: "A high-performance controller parsing kernel translating linear and rotational coordinates into step timing streams. Built to deliver exceptional machining surface finishes.",
-    date: "January 2024"
   }
 ];
 
