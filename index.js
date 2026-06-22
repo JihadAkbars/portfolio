@@ -250,26 +250,24 @@ function getBlueprintSVG(projectId) {
       <text x="430" y="270" font-family="monospace" font-size="10" fill="#38BDF8">68.0°</text>
     `;
   } else if (projectId === "logo-3d-design") {
-    titleText = "LOGO 3D EXTRUSION LAYOUT";
+    titleText = "LOGO 3D EXTRUSION LOCKED";
     dwgNo = "CAD-LOG-3D-01";
     scale = "1:1";
     drawingElements = `
-      <!-- Concentric circles for badge logo -->
-      <circle cx="300" cy="200" r="90" fill="none" stroke="#22D3EE" stroke-width="2" />
-      <circle cx="300" cy="200" r="82" fill="none" stroke="#22D3EE" stroke-width="0.8" stroke-dasharray="5 2" />
-      <circle cx="300" cy="200" r="50" fill="none" stroke="#22D3EE" stroke-width="1.2" />
+      <!-- Grid accent overlayed by a lock layout -->
+      <rect x="50" y="50" width="500" height="230" fill="#0c182c" opacity="0.3" />
       
-      <!-- Triangular logo element inside -->
-      <path d="M300,140 L350,225 L250,225 Z" fill="none" stroke="#22D3EE" stroke-width="1.8" />
+      <!-- Padlock body -->
+      <rect x="270" y="115" width="60" height="50" rx="8" fill="none" stroke="#EF4444" stroke-width="2.5" />
+      <!-- Padlock shackle -->
+      <path d="M285,115 V95 A15,15 0 0,1 315,95 V115" fill="none" stroke="#EF4444" stroke-width="2.5" />
+      <!-- Padlock keyhole -->
+      <circle cx="300" cy="135" r="4" fill="#EF4444" />
+      <path d="M298,135 L296,150 H304 L302,135 Z" fill="#EF4444" />
       
-      <!-- Symmetry coordinates -->
-      <line x1="300" y1="80" x2="300" y2="320" stroke="#22D3EE" stroke-dasharray="12 4 2 4" stroke-width="0.8" />
-      <line x1="180" y1="200" x2="420" y2="200" stroke="#22D3EE" stroke-dasharray="12 4 2 4" stroke-width="0.8" />
-      
-      <!-- Outer diam callout -->
-      <line x1="300" y1="200" x2="385" y2="135" stroke="#F1F5F9" stroke-width="1" />
-      <path d="M 385 135 L 376 137 L 381 142 Z" fill="#F1F5F9" />
-      <text x="392" y="132" font-family="monospace" font-size="10" fill="#F1F5F9">Ø 180.00 mm</text>
+      <!-- Locked status and instruction -->
+      <text x="300" y="210" font-family="monospace" font-size="14" fill="#EF4444" font-weight="bold" text-anchor="middle">BLUEPRINT ACCESS RESTRICTED</text>
+      <text x="300" y="235" font-family="monospace" font-size="11" fill="#94A3B8" text-anchor="middle">Due to several requests the blueprint has to be locked</text>
     `;
   } else if (projectId === "3d-printing-logo") {
     titleText = "3D PRINTING LOGO TOL";
@@ -319,6 +317,7 @@ function getBlueprintSVG(projectId) {
       ${drawingElements}
       
       <!-- Title Block -->
+      ${projectId === "logo-3d-design" ? "" : `
       <g transform="translate(365, 290)">
         <rect width="210" height="85" fill="#0B1A30" stroke="#1e40af" stroke-width="1.5" />
         <line x1="0" y1="20" x2="210" y2="20" stroke="#1e40af" stroke-width="1" />
@@ -336,6 +335,7 @@ function getBlueprintSVG(projectId) {
         <text x="126" y="66" font-size="8" fill="#F1F5F9" font-weight="bold">${scale}</text>
         <text x="126" y="76" font-size="6" fill="#3B82F6">UNIT: mm</text>
       </g>
+      `}
     </svg>
   `;
 }
