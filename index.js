@@ -21,14 +21,14 @@ const PROJECTS_DATA = [
     title: "Bucket Excava 200 Fixture Weld Design",
     category: "CAD",
     image: "https://i.imgur.com/CSPLb9H.jpeg",
-    software: ["SolidWorks", "Inventor"],
+    software: ["SolidWorks"],
     methodology: [
-      "Defined technical specifications based on industrial standards.",
-      "Performed 3D modeling and assembly simulation.",
-      "Generated detailed 2D technical drawings for the manufacturing floor.",
-      "Applied weldment features for structural integrity optimization."
+      "<strong class='text-white block mb-1'>Requirement Analysis & Specification Review</strong><ul class='list-disc pl-5 mt-1.5 space-y-1 text-gray-400 text-xs'><li>Analyzing the technical requirements for the Excavator 200 unit, including material thickness and bucket capacity.</li><li>Determining the necessary tolerances based on industrial standards (GD&T).</li></ul>",
+      "<strong class='text-white block mb-1'>3D Modeling (CAD Development)</strong><ul class='list-disc pl-5 mt-1.5 space-y-1 text-gray-400 text-xs'><li>Utilizing SolidWorks to create robust 3D models of both the bucket and the corresponding welding fixtures.</li><li>Applying Weldment features to efficiently define structural profiles and joint types.</li></ul>",
+      "<strong class='text-white block mb-1'>Structural & Weld Detailing</strong><ul class='list-disc pl-5 mt-1.5 space-y-1 text-gray-400 text-xs'><li>Defining weld symbols and specifications (fillet vs. groove welds) on technical drawings to communicate design intent clearly to the fabrication team.</li><li>Simulating assemblies to ensure fit-up accuracy before the fabrication stage.</li></ul>",
+      "<strong class='text-white block mb-1'>Documentation & Technical Drafting</strong><ul class='list-disc pl-5 mt-1.5 space-y-1 text-gray-400 text-xs'><li>Generating comprehensive 2D technical drawings, including orthographic projections, sections, and detailed weld call-outs.</li><li>Ensuring the bill of materials (BOM) is accurately linked to the 3D model for procurement and assembly.</li></ul>"
     ],
-    description: "Heavy-duty industrial welding welding fixture custom-designed to lock down and align the complex plate geometries of the Excavator 200 bucket assembly. Limits structural displacement to guarantee exceptional repeatable robotic joining tolerances.",
+    description: "This project involved designing the necessary fixtures to hold the bucket assembly securely during the welding process.",
     date: "May 2025"
   },
   {
@@ -36,14 +36,14 @@ const PROJECTS_DATA = [
     title: "Bucket Excava 200 Full Weld Design",
     category: "CAD",
     image: "https://i.imgur.com/2kbxPwD.jpeg",
-    software: ["SolidWorks", "Inventor"],
+    software: ["SolidWorks"],
     methodology: [
-      "Analyzed extreme load targets along key excavator connection brackets.",
-      "Engineered precision chamfer and groove paths to maximize backing weld penetration.",
-      "Compiled 2D manufacturing blueprint sets specifying localized weld volume targets.",
-      "Modeled structural gussets to reduce heat distortion across joining planes."
+      "<strong class='text-white block mb-1'>Requirement Analysis & Specification Review</strong><ul class='list-disc pl-5 mt-1.5 space-y-1 text-gray-400 text-xs'><li>Analyzing the technical requirements for the Excavator 200 unit, including material thickness and bucket capacity.</li><li>Determining the necessary tolerances based on industrial standards (GD&T).</li></ul>",
+      "<strong class='text-white block mb-1'>3D Modeling (CAD Development)</strong><ul class='list-disc pl-5 mt-1.5 space-y-1 text-gray-400 text-xs'><li>Utilizing SolidWorks to create robust 3D models of both the bucket and the corresponding welding fixtures.</li><li>Applying Weldment features to efficiently define structural profiles and joint types.</li></ul>",
+      "<strong class='text-white block mb-1'>Structural & Weld Detailing</strong><ul class='list-disc pl-5 mt-1.5 space-y-1 text-gray-400 text-xs'><li>Defining weld symbols and specifications (fillet vs. groove welds) on technical drawings to communicate design intent clearly to the fabrication team.</li><li>Simulating assemblies to ensure fit-up accuracy before the fabrication stage.</li></ul>",
+      "<strong class='text-white block mb-1'>Documentation & Technical Drafting</strong><ul class='list-disc pl-5 mt-1.5 space-y-1 text-gray-400 text-xs'><li>Generating comprehensive 2D technical drawings, including orthographic projections, sections, and detailed weld call-outs.</li><li>Ensuring the bill of materials (BOM) is accurately linked to the 3D model for procurement and assembly.</li></ul>"
     ],
-    description: "A fully developed 3D structural weldment design of the Excava 200 excavator bucket. This project incorporates rigorous analysis of cyclic joint fatigue, strategic stiffener distribution, and compliance with heavy machinery assembly standards.",
+    description: "The focus was on creating a high-strength bucket assembly using full-penetration welding techniques. The design prioritizes durability and stress distribution to withstand extreme digging conditions.",
     date: "April 2025"
   },
   {
@@ -63,63 +63,56 @@ const PROJECTS_DATA = [
   },
   {
     id: "programmer-portfolio",
-    title: "Programmer Personal Portfolio",
+    title: "Programming Personal Portfolio",
     category: "Programming",
     image: "https://i.imgur.com/0IqWET4.png",
-    software: ["Visual Studio Code", "Adobe"],
+    software: ["Visual Studio Code"],
     methodology: [
-      "Optimized DOM structuring and decoupled JavaScript logic into robust ES Modules.",
-      "Integrated dynamic responsive grids to serve display assets universally across devices.",
-      "Engineered real-time visual simulation physics on HTML5 graphics canvas.",
-      "Established clientside modular routes conforming to standard link compliance."
+      "<strong class='text-white block mb-1'>Data Preprocessing</strong><ul class='list-disc pl-5 mt-1.5 space-y-1 text-gray-400 text-xs'><li>Cleaned and normalized raw data to ensure accuracy for modeling.</li></ul>",
+      "<strong class='text-white block mb-1'>Algorithm Development</strong><ul class='list-disc pl-5 mt-1.5 space-y-1 text-gray-400 text-xs'><li>Built an iterative forecasting model focused on performance and reliability.</li></ul>",
+      "<strong class='text-white block mb-1'>Visualization</strong><ul class='list-disc pl-5 mt-1.5 space-y-1 text-gray-400 text-xs'><li>Created intuitive dashboards to interpret complex data trends.</li></ul>",
+      "<strong class='text-white block mb-1'>Version Control</strong><ul class='list-disc pl-5 mt-1.5 space-y-1 text-gray-400 text-xs'><li>Managed project development and documentation through GitHub.</li></ul>"
     ],
-    description: "A high-performance, single-page application portfolio engineered with modern styling, fluid grid layouts, and active interactive canvases. The design prioritizes lightweight assets, strict security, and dynamic micro-interactions.",
-    date: "June 2025"
+    description: "Developed a data-driven model for time-series forecasting. This project transformed raw datasets into predictive trends, demonstrating my ability to apply computational logic to identify patterns and optimize decision-making processes.",
+    date: "June 2026"
   },
   {
     id: "3d-printing-logo",
     title: "3D Printing Logo Design",
     category: "CAD",
     image: "https://i.imgur.com/9InyuCg.jpeg",
-    software: ["SolidWorks", "Inventor"],
+    software: ["Inventor", "UltiMaker Cura"],
     methodology: [
-      "Constructed precise additive manufacturing templates featuring lightweight grid patterns.",
-      "Tested snap-fit tolerances down to 0.15mm using solid design clearance sweeps.",
-      "Configured toolpath slice directions to bypass structural overhang droops.",
-      "Constructed standard assembly schematics detailing interlocking plate order."
+      "<strong class='text-white block mb-1'>Engineering Design & CAD Modeling</strong><ul class='list-disc pl-5 mt-1.5 space-y-1 text-gray-400 text-xs'><li>Developing the logo from scratch using Autodesk Inventor, focusing on parametric modeling to ensure precise dimensions and geometric accuracy.</li><li>Applying engineering principles to create features that are structurally optimized for additive manufacturing.</li></ul>",
+      "<strong class='text-white block mb-1'>Additive Manufacturing Preparation (Slicing)</strong><ul class='list-disc pl-5 mt-1.5 space-y-1 text-gray-400 text-xs'><li>Exporting designs into Ultimaker Cura to define optimal print parameters, including layer height, infill patterns, and print orientation.</li><li>Strategizing support structures and build plate adhesion to minimize waste and ensure high surface finish quality.</li></ul>",
+      "<strong class='text-white block mb-1'>Fabrication & Process Control</strong><ul class='list-disc pl-5 mt-1.5 space-y-1 text-gray-400 text-xs'><li>Managing the print process with a focus on material efficiency and structural integrity.</li><li>Performing post-processing tasks to refine the final output, ensuring the logo meets the desired aesthetic and technical standards.</li></ul>"
     ],
-    description: "Custom corporate logo optimized for industrial additive rapid prototyping (FDM/SLA) featuring snap-fit connectors, tailored structural wall thickness, and minimized thermal warp corners.",
+    description: "This project focused on the transformation of a 2D school departmental logo into a high-quality 3D physical object. The objective was to design a logo suitable for 3D printing that maintains brand identity while considering structural integrity, aesthetic appeal, and additive manufacturing constraints.",
     date: "September 2024"
   },
   {
     id: "mech-confidential-valve",
-    title: "Pneumatic Valve Linkage Optimization",
+    title: "*",
     category: "Mechanical Engineering",
     image: null,
-    software: ["Inventor", "SolidWorks"],
+    software: ["CNC", "Lathe", "Milling"],
     methodology: [
-      "Calculated structural kinematics matching rigorous industrial pneumatic specifications.",
-      "Simulated pivot joint friction under localized thermal stress load variations.",
-      "Realigned linkage lengths to bypass secondary geometric structural dead-points.",
-      "Compiled secured technical documentation strictly protected under NDA."
+      "*"
     ],
-    description: "Analysis, modeling, and physical kinematics calibration of a pneumatic actuator linkages array. The documentation and blueprints are completely confidential and cannot be published due to strict trade NDA rules.",
-    date: "July 2024"
+    description: "*",
+    date: "*"
   },
   {
     id: "mech-confidential-gear",
-    title: "High-Torque Planetary Gear Drive",
+    title: "*",
     category: "Mechanical Engineering",
     image: null,
-    software: ["SolidWorks", "Inventor"],
+    software: ["CNC", "Lathe", "Milling"],
     methodology: [
-      "Executed AGMA standard rating metrics for tooth surface durability.",
-      "Simulated heat generation cycles under continuous torque load stress.",
-      "Specified interference shaft fits ensuring robust retention with zero slip.",
-      "Enforced industrial guidelines to encrypt engineering documents securely."
+      "*"
     ],
-    description: "Compact, multi-stage planetary transmission unit optimized for rugged physical power transfer. Built for premium efficiency and completely covered under active corporate NDA protocols.",
-    date: "May 2024"
+    description: "*",
+    date: "*"
   }
 ];
 
@@ -130,82 +123,29 @@ function getBlueprintSVG(projectId) {
   let dwgNo = "DWG-2025-001";
   let scale = "1:10";
 
-  if (projectId === "excava-200-fixture") {
-    titleText = "EXCAVA 200 FIXTURE ASM";
-    dwgNo = "CAD-EX200-FIX-04";
-    scale = "1:15";
-    drawingElements = `
-      <!-- Hex brackets and clamp fixture -->
-      <rect x="150" y="120" width="300" height="160" rx="4" fill="none" stroke="#22D3EE" stroke-width="1.5" />
-      <rect x="170" y="140" width="260" height="120" fill="none" stroke="#22D3EE" stroke-dasharray="4 2" stroke-width="1" />
-      
-      <!-- Cylinders & concentric circles -->
-      <circle cx="200" cy="200" r="45" fill="none" stroke="#22D3EE" stroke-width="1.5" />
-      <circle cx="200" cy="200" r="25" fill="none" stroke="#22D3EE" stroke-width="1" />
-      <circle cx="400" cy="200" r="45" fill="none" stroke="#22D3EE" stroke-width="1.5" />
-      <circle cx="400" cy="200" r="25" fill="none" stroke="#22D3EE" stroke-width="1" />
-      
-      <!-- Connective bar -->
-      <line x1="200" y1="200" x2="400" y2="200" stroke="#22D3EE" stroke-width="2" />
-      <line x1="150" y1="200" x2="450" y2="200" stroke="#22D3EE" stroke-dasharray="12 4 2 4" stroke-width="1" />
-      <line x1="300" y1="100" x2="300" y2="300" stroke="#22D3EE" stroke-dasharray="12 4 2 4" stroke-width="1" />
-      
-      <!-- Dimension lines and tags -->
-      <line x1="150" y1="80" x2="450" y2="80" stroke="#F1F5F9" stroke-width="1" />
-      <line x1="150" y1="75" x2="150" y2="85" stroke="#F1F5F9" stroke-width="1" />
-      <line x1="450" y1="75" x2="450" y2="85" stroke="#F1F5F9" stroke-width="1" />
-      <path d="M 150 80 L 160 77 L 160 83 Z M 450 80 L 440 77 L 440 83 Z" fill="#F1F5F9" />
-      <text x="300" y="72" font-family="monospace" font-size="11" fill="#F1F5F9" text-anchor="middle">300.00 mm (REF)</text>
-      
-      <line x1="100" y1="120" x2="100" y2="280" stroke="#F1F5F9" stroke-width="1" />
-      <line x1="95" y1="120" x2="105" y2="120" stroke="#F1F5F9" stroke-width="1" />
-      <line x1="95" y1="280" x2="105" y2="280" stroke="#F1F5F9" stroke-width="1" />
-      <path d="M 100 120 L 97 130 L 103 130 Z M 100 280 L 97 270 L 103 270 Z" fill="#F1F5F9" />
-      <text x="85" y="204" font-family="monospace" font-size="11" fill="#F1F5F9" text-anchor="middle" transform="rotate(-90 85 204)">160.00 mm</text>
-      
-      <line x1="400" y1="200" x2="435" y2="165" stroke="#38BDF8" stroke-width="1" />
-      <path d="M 435 165 L 426 167 L 431 172 Z" fill="#38BDF8" />
-      <text x="442" y="162" font-family="monospace" font-size="10" fill="#38BDF8" text-anchor="start">R45.00</text>
-      
-      <path d="M 300 200 L 260 160 L 230 160" fill="none" stroke="#F43F5E" stroke-width="1.2" />
-      <path d="M 300 200 L 293 191 L 291 197 Z" fill="#F43F5E" />
-      <text x="245" y="153" font-family="monospace" font-size="10" fill="#F43F5E" text-anchor="middle">◤ a4 = 6</text>
-    `;
-  } else if (projectId === "bucket-excava-full-weld") {
-    titleText = "EXCAVA 200 BUCKET ASM";
+  if (projectId === "bucket-excava-full-weld" || projectId === "excava-200-fixture") {
+    titleText = "CONFIDENTIAL WELDMENT LOCKED";
     dwgNo = "CAD-EX200-WLD-12";
     scale = "1:20";
     drawingElements = `
-      <!-- Excavator Bucket outlines -->
-      <path d="M150,150 L350,130 L450,220 L400,310 L200,310 L150,150 Z" fill="none" stroke="#22D3EE" stroke-width="1.8" />
-      <path d="M150,150 L190,170 L350,160" fill="none" stroke="#22D3EE" stroke-width="1" stroke-dasharray="4 2" />
+      <!-- Grid accent overlayed by a lock layout -->
+      <rect x="50" y="50" width="500" height="230" fill="#0c182c" opacity="0.3" />
       
-      <!-- Hinge support circles -->
-      <circle cx="280" cy="180" r="28" fill="none" stroke="#22D3EE" stroke-width="1.5" />
-      <circle cx="280" cy="180" r="16" fill="none" stroke="#22D3EE" stroke-width="1" />
-      <circle cx="340" cy="220" r="28" fill="none" stroke="#22D3EE" stroke-width="1.5" />
-      <circle cx="340" cy="220" r="16" fill="none" stroke="#22D3EE" stroke-width="1" />
+      <!-- Padlock body -->
+      <rect x="270" y="115" width="60" height="50" rx="8" fill="none" stroke="#EF4444" stroke-width="2.5" />
+      <!-- Padlock shackle -->
+      <path d="M285,115 V95 A15,15 0 0,1 315,95 V115" fill="none" stroke="#EF4444" stroke-width="2.5" />
+      <!-- Padlock keyhole -->
+      <circle cx="300" cy="135" r="4" fill="#EF4444" />
+      <path d="M298,135 L296,150 H304 L302,135 Z" fill="#EF4444" />
       
-      <!-- Centerlines -->
-      <line x1="280" y1="130" x2="280" y2="230" stroke="#22D3EE" stroke-dasharray="10 4 2 4" stroke-width="0.8" />
-      <line x1="230" y1="180" x2="390" y2="180" stroke="#22D3EE" stroke-dasharray="10 4 2 4" stroke-width="0.8" />
-      
-      <!-- Teeth outlines -->
-      <path d="M450,220 L480,215 L450,230 L480,235 L445,245 L480,255 L440,265" fill="none" stroke="#22D3EE" stroke-width="1.5" />
-      
-      <!-- Dimension: Bucket mouth opening -->
-      <line x1="150" y1="110" x2="350" y2="90" stroke="#F1F5F9" stroke-width="1" />
-      <line x1="150" y1="105" x2="150" y2="115" stroke="#F1F5F9" stroke-width="1" />
-      <line x1="350" y1="85" x2="350" y2="95" stroke="#F1F5F9" stroke-width="1" />
-      <path d="M 150 110 L 160 108 L 159 114 Z M 350 90 L 340 86 L 341 92 Z" fill="#F1F5F9" />
-      <text x="250" y="86" font-family="monospace" font-size="11" fill="#F1F5F9" text-anchor="middle" transform="rotate(-5 250 86)">W = 850.00 mm</text>
-      
-      <!-- Angle callout -->
-      <path d="M 400 310 A 110 110 0 0 0 450 220" fill="none" stroke="#38BDF8" stroke-width="1" stroke-dasharray="3 3" />
-      <text x="430" y="270" font-family="monospace" font-size="10" fill="#38BDF8">68.0°</text>
+      <!-- Locked status and instruction -->
+      <text x="300" y="210" font-family="monospace" font-size="14" fill="#EF4444" font-weight="bold" text-anchor="middle">BLUEPRINT ACCESS RESTRICTED</text>
+      <text x="300" y="235" font-family="monospace" font-size="11" fill="#94A3B8" text-anchor="middle">Confidential Drafter Engineering work</text>
+      <text x="300" y="255" font-family="monospace" font-size="9.5" fill="#64748B" text-anchor="middle">Limited documentation, cannot be published due to proprietary NDA regulations.</text>
     `;
-  } else if (projectId === "logo-3d-design") {
-    titleText = "LOGO 3D EXTRUSION LOCKED";
+  } else if (projectId === "logo-3d-design" || projectId === "3d-printing-logo") {
+    titleText = "BLUEPRINT LOCKED";
     dwgNo = "CAD-LOG-3D-01";
     scale = "1:1";
     drawingElements = `
@@ -222,27 +162,7 @@ function getBlueprintSVG(projectId) {
       
       <!-- Locked status and instruction -->
       <text x="300" y="210" font-family="monospace" font-size="14" fill="#EF4444" font-weight="bold" text-anchor="middle">BLUEPRINT ACCESS RESTRICTED</text>
-      <text x="300" y="235" font-family="monospace" font-size="11" fill="#94A3B8" text-anchor="middle">Due to several requests the blueprint has to be locked</text>
-    `;
-  } else if (projectId === "3d-printing-logo") {
-    titleText = "3D PRINTING LOGO TOL";
-    dwgNo = "CAD-3DP-07";
-    scale = "1.5:1";
-    drawingElements = `
-      <!-- snap-fit structure -->
-      <path d="M180,160 L240,160 L240,145 L250,145 L250,175 L240,175 L240,170 L180,170 Z" fill="none" stroke="#22D3EE" stroke-width="1.5" />
-      <circle cx="210" cy="165" r="3" fill="#22D3EE" />
-      
-      <!-- main ring template -->
-      <path d="M250,165 A 80 80 0 0 1 370,240" fill="none" stroke="#22D3EE" stroke-width="2" />
-      <path d="M250,165 A 72 72 0 0 1 358,232" fill="none" stroke="#22D3EE" stroke-width="1" stroke-dasharray="3 3" />
-      
-      <!-- Dimension -->
-      <line x1="240" y1="125" x2="250" y2="125" stroke="#F1F5F9" stroke-width="1" />
-      <line x1="240" y1="120" x2="240" y2="130" stroke="#F1F5F9" stroke-width="1" />
-      <line x1="250" y1="120" x2="250" y2="130" stroke="#F1F5F9" stroke-width="1" />
-      <path d="M 240 125 L 246 123 L 246 127 Z M 250 125 L 244 123 L 244 127 Z" fill="#F1F5F9" />
-      <text x="245" y="115" font-family="monospace" font-size="9" fill="#F1F5F9" text-anchor="middle">0.25 ± 0.05</text>
+      <text x="300" y="235" font-family="monospace" font-size="11" fill="#94A3B8" text-anchor="middle">Due to several request the blueprint has to be locked</text>
     `;
   } else {
     // Standard component blueprint
@@ -252,6 +172,8 @@ function getBlueprintSVG(projectId) {
       <circle cx="300" cy="200" r="30" fill="none" stroke="#22D3EE" stroke-width="1.5" />
     `;
   }
+
+  const isLocked = projectId === "logo-3d-design" || projectId === "3d-printing-logo" || projectId === "bucket-excava-full-weld" || projectId === "excava-200-fixture";
 
   return `
     <svg viewBox="0 0 600 400" width="100%" height="100%" class="font-mono select-none" xmlns="http://www.w3.org/2000/svg" style="background-color: #0c182c;">
@@ -272,7 +194,7 @@ function getBlueprintSVG(projectId) {
       ${drawingElements}
       
       <!-- Title Block -->
-      ${projectId === "logo-3d-design" ? "" : `
+      ${isLocked ? "" : `
       <g transform="translate(365, 290)">
         <rect width="210" height="85" fill="#0B1A30" stroke="#1e40af" stroke-width="1.5" />
         <line x1="0" y1="20" x2="210" y2="20" stroke="#1e40af" stroke-width="1" />
@@ -312,6 +234,18 @@ function getSoftwareBadge(softwareName) {
   } else if (softwareName === "Adobe") {
     colorClass = "bg-red-600/10 border-red-600/30 text-red-400";
     icon = `<span class="w-2 h-2 rounded-full bg-red-600"></span>`;
+  } else if (softwareName === "CNC") {
+    colorClass = "bg-emerald-500/10 border-emerald-500/30 text-emerald-300";
+    icon = `<span class="w-2 h-2 rounded-full bg-emerald-500"></span>`;
+  } else if (softwareName === "Lathe") {
+    colorClass = "bg-sky-500/10 border-sky-500/30 text-sky-300";
+    icon = `<span class="w-2 h-2 rounded-full bg-sky-500"></span>`;
+  } else if (softwareName === "Milling") {
+    colorClass = "bg-purple-500/10 border-purple-500/30 text-purple-300";
+    icon = `<span class="w-2 h-2 rounded-full bg-purple-500"></span>`;
+  } else if (softwareName === "UltiMaker Cura" || softwareName === "Ultimaker Cura" || softwareName === "Cura") {
+    colorClass = "bg-blue-600/10 border-blue-600/30 text-blue-300";
+    icon = `<span class="w-2 h-2 rounded-full bg-blue-500"></span>`;
   }
 
   return `
@@ -588,7 +522,7 @@ function renderProjectDetails(project) {
           </div>
 
           <div>
-            <h4 class="text-xs font-bold font-poppins text-gray-400 uppercase tracking-widest mb-3">Software Stack Used</h4>
+            <h4 class="text-xs font-bold font-poppins text-gray-400 uppercase tracking-widest mb-3">${project.category === "Mechanical Engineering" ? "Manufacturing Process" : "Software Stack Used"}</h4>
             <div class="flex flex-wrap gap-2">
               ${project.software.map(getSoftwareBadge).join("")}
             </div>
